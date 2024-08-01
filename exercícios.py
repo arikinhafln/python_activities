@@ -66,3 +66,30 @@ print(f'Olá, {nome}! É um prazer te conhecer.
           Vejo que você tem {idade} anos e mora em {cidade}. 
           Eu também sou de {cidade} e estou na mesma área de {profissao}. 
           Que coincidência incrível!')
+
+#Exercícios Python tomada de decisão
+num1 = float(input('Digite o primeiro número: '))
+num2 = float(input('Digite o segundo número: '))         
+if num1 > num2:
+      maior = num1
+elif num2 > num1:
+      maior = num2
+else:
+      maior = None
+
+if maior is not None:
+      print(f'O maior número é: {maior}')
+else:
+      print('Os números são iguais.')
+
+
+#Exercício 2
+turno = input("Em que turno você estuda? Digite M para Matutino, V para Vespertino ou N para Noturno: ").upper()
+if turno == 'M':
+      print('Bom Dia!')
+elif turno == 'V':
+      print('Boa Tarde!')
+elif turno == 'N':
+      print('Boa Noite!')
+else:
+      print('Valor Inválido!')
