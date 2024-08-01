@@ -40,7 +40,29 @@ print(f'O consumo médio é: {consumo_medio:.3f} km/l')
 peso = float(input('Digite o seu peso em kg: '))
 altura = float(input('Digite a sua altura em metros: '))
 imc = calcular_imc(peso, altura)
-print(f'Seu Índice de Massa Corporal (IMC) é: {imc:.2f')
+print(f'Seu Índice de Massa Corporal (IMC) é: {imc:.2f}')
       
 
-      
+
+#Exercício 6
+ganho_por_hora = float(input('Digite quanto você ganha por hora: '))
+horas_trabalhadas = float(input('Digite o número de horas trabalhadas no mês: '))
+salario_total = ganho_por_hora * horas_trabalhadas
+print(f'O seu salário total no mês é: R$ {salario_total:.2f}')
+
+
+
+#Exercício 7
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+cidade = input("Digite a cidade onde você mora: ")
+profissao = input("Digite sua profissão: ")
+    
+
+
+
+#Exercício 8
+print(f'Olá, {nome}! É um prazer te conhecer. 
+          Vejo que você tem {idade} anos e mora em {cidade}. 
+          Eu também sou de {cidade} e estou na mesma área de {profissao}. 
+          Que coincidência incrível!')
